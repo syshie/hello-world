@@ -17,5 +17,9 @@ def version():
         print(mod + ': ', eval(mod).__version__)
 
 
+def diff():
+    return 0
+
+
 if __name__ == '__main__':
     version()
